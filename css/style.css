@@ -1,0 +1,254 @@
+/* 
+Template Name:
+Template URL:
+Description: 
+Author: Zakir Naik
+Author URL: 
+Version: 
+*/
+/* Google Font Import - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    width: fit-content;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.primary-color{
+    color: #3A3A3A;
+}
+
+/* ===============-start=============== */
+header{
+    margin: 87px 120px 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left{
+    color: #3A3A3A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nav-right ul{
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+li a{
+    color: #3A3A3A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+/* ===============-end=============== */
+
+/* ===============section-start=============== */
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.right-sec h2{
+    color: #3A3A3A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px
+}
+.right-sec p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600; 
+    padding: 16px 0;
+}
+.right-sec .btn{
+    display: flex;
+    align-items: center;
+}
+.right-sec .btn h3{
+    background: #E02C6D;
+    padding: 10px 24px;
+    align-items: center;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Poppins;
+}
+/* ===============-end=============== */
+
+/* ===============-start=============== */
+main{
+    margin: 100px 165px;
+}
+.isponsor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #3A3A3A;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+/* ===============-end=============== */
+
+/* ===============-start=============== */
+.item{
+    justify-content: center;
+    margin: 100px 20px;
+}
+.item > h2{
+    color: #3A3A3A;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 70px;
+    text-align: center;
+}
+.item-list{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+}
+.card{
+    padding: 15px;
+    border-radius: 5px;
+}
+.card h2{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.card h3{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%
+}
+.card .icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.card .icon i{
+    color: #FB8200;
+}
+.card .icon h3{
+    color: #5e6366;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: .1px;
+    padding-left: 10px;
+    margin-top: 11px;
+}
+.card p{
+    color: #787885;
+}
+.bottom{
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 16px;
+    font-weight: 700;
+    align-items: center;
+    margin-top: 30px;
+}
+.bottom i{
+    padding-right: 30px;
+}
+
+/* ===============-end=============== */
+
+/* ===============-start=============== */
+.bottom-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.discrip h1{
+    color: #0a0826;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 16px;
+}
+.bottom-sec .btn{
+    margin-top: 16px;
+    background-color: #E02C6D;
+    padding: 12px 24px;
+    color: #fff;
+}
+.bottom-sec .btn i{
+    padding-left: 10px;
+}
+/* ===============-end=============== */
+
+/* ===============-start=============== */
+footer{
+    text-align: center;
+    background-color: #0a0826;
+    padding: 100px;
+}
+footer h2{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+footer p{
+    font-size: 14px;
+    font-family: Manrope;
+    font-weight: 700;
+    line-height: 24px;
+    color: #D9DBE1;
+}
+.media a i{
+    gap: 20px;
+    background-color: #3A3A3A;
+    margin-left: 10px;
+    padding: 15px;
+    border: #5e6366;
+    border-radius: 50px;
+}
+.fa-brands .fa-youtube{
+    color: red;
+}
+/* ===============-end=============== */
+
+/* ===============-start=============== */
+/* ===============-end=============== */
+
+/* ===============-start=============== */
+/* ===============-end=============== */
+
+/* ===============-start=============== */
+/* ===============-end=============== */
+
+/* ===============-start=============== */
+/* ===============-end=============== */
